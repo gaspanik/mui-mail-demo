@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": ""
+    "start": "browser-sync start --server --files '*.html'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.2.3",
+    "gulp": "^3.8.11",
+    "gulp-inline-css": "^2.0.0"
   }
 }

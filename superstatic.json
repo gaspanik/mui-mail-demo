@@ -1,0 +1,12 @@
+{
+  "name": "mui-demo",
+  "root": "./",
+  "clean_urls": false,
+  "error_page": "error.html",
+  "cache_control": {},
+  "headers": {
+    "./": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
